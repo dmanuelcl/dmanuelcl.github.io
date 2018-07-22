@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "id": "vieraacademy",
+      "appName": "Viera Academy",
+      "companyName": "Viera Academy",
+      "ico": "vieraacademy.png",
+      "images": ["1.png", "2.png","3.png","4.png","5.png"],
+      "year": null,
+      "details": "dfsdf sdf sd fds f sdfsdf sdf sdfksd fsd fsdf sdfsdfksd fsf s sdf sfsf",
+      "url": ["https://itunes.apple.com/us/album/ok-computer/id696736813?i=696737042&uo=4&at=1l3v7Hz"],
+      "first": true,
+      "last": false
+    },
+    {
+      "id": "speakslow",
+      "appName": "Speal Slow",
+      "companyName": "Speak Slow LLC",
+      "ico": "speakslow.png",
+      "images": ["1.png", "2.png", "3.png", "4.png", "5.png"],
+      "year": null,
+      "details": "dfsdf sdf sd fds f sdfsdf sdf sdfksd fsd fsdf sdfsdfksd fsf s sdf sfsf",
+      "url": ["https://itunes.apple.com/us/album/ok-computer/id696736813?i=696737042&uo=4&at=1l3v7Hz"],
+      "first": false,
+      "last": false
+    },
+    {
+      "id": "nightowlc",
+      "appName": "Night Owl C",
+      "companyName": "Night Owl SP, LLC",
+      "ico": "nightowlc.png",
+      "images": ["1.png", "2.png","3.png","4.png", "5.png"],
+      "year": null,
+      "details": "dfsdf sdf sd fds f sdfsdf sdf sdfksd fsd fsdf sdfsdfksd fsf s sdf sfsf",
+      "url": ["https://itunes.apple.com/us/album/ok-computer/id696736813?i=696737042&uo=4&at=1l3v7Hz"],
+      "first": false,
+      "last": false
+    },
+    {
+      "id": "nightowlsafe",
+      "appName": "Night Owl Safe",
+      "companyName": "Night Owl SP, LLC",
+      "ico": "nightowlsafe.png",
+      "images": ["1.png", "2.png","3.png","4.png","5.png"],
+      "year": null,
+      "details": "dfsdf sdf sd fds f sdfsdf sdf sdfksd fsd fsdf sdfsdfksd fsf s sdf sfsf",
+      "url": ["https://itunes.apple.com/us/album/ok-computer/id696736813?i=696737042&uo=4&at=1l3v7Hz"],
+      "first": false,
+      "last": true
+    },
+    {
+      "id": "notario",
+      "appName": "Notario",
+      "companyName": "Veritescrow SL",
+      "ico": "notario.png",
+      "images": ["1.jpg", "2.jpg","3.jpg","4.jpg","5.jpg"],
+      "year": null,
+      "details": "dfsdf sdf sd fds f sdfsdf sdf sdfksd fsd fsdf sdfsdfksd fsf s sdf sfsf",
+      "url": ["https://itunes.apple.com/us/album/ok-computer/id696736813?i=696737042&uo=4&at=1l3v7Hz"],
+      "first": true,
+      "last": false
+    },
+    {
+      "id": "khph",
+      "appName": "Ke hay Pa' Hoy?",
+      "companyName": "Ke hay Pa' Hoy?",
+      "ico": "khph.png",
+      "images": ["1.png", "2.png","3.png","4.png","5.png"],
+      "year": null,
+      "details": "dfsdf sdf sd fds f sdfsdf sdf sdfksd fsd fsdf sdfsdfksd fsf s sdf sfsf",
+      "url": [],
+      "first": false,
+      "last": false
+    },
+    {
+      "id": "cubaidea",
+      "appName": "Cubaidea",
+      "companyName": "Cubaidea",
+      "ico": "cubaidea.png",
+      "images": ["1.png", "2.png","3.png","4.png","5.png"],
+      "year": null,
+      "details": "dfsdf sdf sd fds f sdfsdf sdf sdfksd fsd fsdf sdfsdfksd fsf s sdf sfsf",
+      "url": [],
+      "first": false,
+      "last": true
+    }
+  ]
+}
