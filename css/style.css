@@ -132,6 +132,7 @@ ol, li {
 }
 
 .album-name {
+	text-align: center;
 	font-weight: bold;
 	white-space: nowrap;
 	overflow: hidden;
@@ -142,6 +143,7 @@ ol, li {
 }
 
 .artist-name {
+	text-align: center;
 	opacity: 1;
 	margin-bottom: 2px;
 	color: #888;
@@ -238,6 +240,7 @@ ol, li {
 	width: 20px !important;
 	height: 20px !important;
 	line-height: 0px !important;
+	cursor: pointer;
 }
 
 .folderContent .close:hover {

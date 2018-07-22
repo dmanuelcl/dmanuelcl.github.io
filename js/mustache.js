@@ -62,9 +62,10 @@ var Mustache;
   };
 
   function escapeHtml(string) {
-    return String(string).replace(/[&<>"'\/]/g, function (s) {
-      return entityMap[s];
-    });
+    return string
+    // String(string).replace(/[&<>"'\/]/g, function (s) {
+    //   return entityMap[s];
+    // });
   }
 
   // Export the escaping function so that the user may override it.

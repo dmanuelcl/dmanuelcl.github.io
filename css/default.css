@@ -53,7 +53,7 @@ time, mark, audio, video {
    padding: 0;
    border: 0;
    outline: 0;
-   font-size: 100%;
+   /*font-size: 100%;*/
    vertical-align: baseline;
    background: transparent;
 }
@@ -145,7 +145,7 @@ body {
    background: #fff;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
-   font-size: 15px;
+   font-size: 17px;
    line-height: 30px;
 	color: #838C95;
 
@@ -178,11 +178,15 @@ p.lead {
    margin-bottom: 18px;
 }
 
+p{
+   text-align: justify;
+}
+
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
 em { font: 15px/30px 'opensans-italic', sans-serif; }
 strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
-small { font-size: 11px; line-height: inherit; }
+small { font-size: 12px; line-height: inherit; }
 
 /*	Blockquotes */
 blockquote {
@@ -302,7 +306,7 @@ p a, p a:visited { line-height: inherit; }
 /*  4. List  --------------------------------------------------------- */
 
 ul, ol { margin-bottom: 24px; margin-top: 12px; }
-ul { list-style: none outside; }
+/*ul { list-style: none outside; }*/
 ol { list-style: decimal; }
 ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
 ul.square { list-style: square outside; }

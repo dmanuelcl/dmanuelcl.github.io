@@ -28,7 +28,7 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
-header {
+/*header {
    position: relative;
    height: 800px;
    min-height: 500px;
@@ -38,15 +38,15 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
-}
+}*/
 
 /* vertically center banner section */
-header:before {
+/*header:before {
    content: '';
    display: inline-block;
    vertical-align: middle;
    height: 100%;
-}
+}*/
 header .banner {
    display: inline-block;
    vertical-align: middle;
@@ -248,48 +248,54 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+.resume {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   padding-top: 30px;
+   padding-bottom: 10px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+.resume a, .resume a:visited  { color: #11ABB0; }
+.resume a:hover, .resume a:focus { color: #313131; }
 
-#resume h1 {
+.resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+.resume h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+.resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+.resume .header-col { padding-top: 9px; }
+.resume .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
+.skill{
+  margin-top: 30px !important;
+  padding-top: 0px !important;
+}
+
+.work, .skill {
+   /*margin-bottom: 48px;*/
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+
+.resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+.resume .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+.resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -1036,8 +1042,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
+   padding-top: 90px;
+   margin-bottom: 90px;
    color: #303030;
    font-size: 14px;
    text-align: center;

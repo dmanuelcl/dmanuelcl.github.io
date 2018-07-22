@@ -86,7 +86,7 @@
 					// if ( node.length ) {
 					// 	node.attr( 'id', '' );
 					// }
-					document.location.hash = hash;
+					//document.location.hash = hash;
 					if ( node.length ) {
 						node.attr( 'id', hash );
 					}
@@ -110,7 +110,7 @@
 							}
 						});
 
-						document.location.hash = '';
+						//document.location.hash = '';
 						
 						
 						//Reset the margin-top for the container
@@ -150,7 +150,7 @@
 						// if ( node.length ) {
 						// 	node.attr( 'id', '' );
 						// }
-						document.location.hash = hash;
+						//document.location.hash = hash;
 						if ( node.length ) {
 							node.attr( 'id', hash );
 						}
@@ -228,12 +228,12 @@
 			}
 
 			// Re-load any links outside the App Folders that refer to an opened App Folder.
-			$(settings.internalLinkSelector).click(function(event) {
-				var link = $(this).attr('href');
-				window.location.href = link;
-				window.location.reload();
-				//return false;
-			});
+			// $(settings.internalLinkSelector).click(function(event) {
+			// 	var link = $(this).attr('href');
+			// 	window.location.href = link;
+			// 	window.location.reload();
+			// 	//return false;
+			// });
 			// data-ajax="false" ?
 			
 			
